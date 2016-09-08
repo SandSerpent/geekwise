@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+h4 {
+position: absolute;
+top: 50%;
+left: 50%;
+text-align: left;
+
+transform: translate3d(-50%, -110%, 0);
+color: white;
+
+}
+img {
+position: absolute;
+top: calc(50% - calc(150px / 2));
+left: calc(50% - calc(150px / 2));
+padding: 30px 50px;
+border: 20px solid red;
+background-color: hsla(0, 0%, 0%, 0.90);;
+}
+div {
+  background-color: brown;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  background-color: hsla(0, 0%, 0%, 0.5);
+}
+a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, 80%, 0);
+}

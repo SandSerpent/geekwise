@@ -1,0 +1,32 @@
+body {
+ background-image: url(../img/background.jpg);
+}
+header img{
+  margin-top: 20px
+}
+header h1 {
+  margin-left: 10px
+}
+img {
+  float: left;
+
+}
+h1 {
+  float: left;
+  color: white;
+
+}
+h2 {
+  float: left;
+  margin-top: 20px;
+  margin-left: 30%;
+  color: white;
+  margin-top: 30px;
+  font-size: 18px;
+}
+header li {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 70px;
+  width: 10px
+}
