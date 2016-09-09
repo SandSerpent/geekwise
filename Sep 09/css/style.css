@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+header {
+  background-image: url(../img/background.jpg);
+  position: center;
+}
+img{
+  float: left;
+  width: auto;
+  height: 70px
+}
+nav{
+  padding: 40px 60px
+}
+h1, ul {
+  margin: 0;
+  display: inline-block;
+}
+h1 {
+  padding-bottom: 40px;
+  text-decoration: none;
+
+}
+ul{
+  float: right;
+}
+ul li {
+  display: inline-block;
+  padding: 10px;
+  color: hsl(0, 3%, 25%);
+}
