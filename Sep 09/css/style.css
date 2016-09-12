@@ -20,6 +20,7 @@ h1, ul {
 h1 {
   padding-bottom: 40px;
   text-decoration: none;
+  margin-top: 10px
 
 }
 ul{
@@ -29,4 +30,26 @@ ul li {
   display: inline-block;
   padding: 10px;
   color: hsl(0, 3%, 25%);
+
+}
+ul li:nth-of-type(1){
+  color: hsl(200, 84%, 70%);
+}
+body {
+  background-image: url(../img/background.jpg);
+}
+h2 {
+  color: white;
+  position: absolute;
+  width: 50%;
+  float: left;
+  margin-left: 30%
+}
+p {
+    color: hsl(0, 3%, 25%);
+    position: relative;;
+    float: left;
+    margin-left: 30%;
+    margin-top: 45px;
+    width: 50%;
 }

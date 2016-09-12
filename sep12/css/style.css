@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+}
+header {
+  position: center;
+}
+header img {
+  float: left;
+  width: auto;
+  height: 40px;
+}
+h1 {
+ margin-left: 20px;
+ float: left;
+}
+ul {
+  margin-bottom: 20;
+}
+header nav ul li {
+  display: inline-block;
+  padding: 10px;
+  float: right;
+}
+h2 {
+  width: 70%;
+  margin: 0;
+  background-color: pink;
+}
+section {
+  float: left;
+}
+section:first-of-type div:nth-of-type(1) {
+  float: left;
+  width: 40%;
+  background-color: blue;
+}
+div:nth-of-type(2) {
+ float: left;
+ width: 30%;
+ background-color: yellow;
+}
+aside {
+ float: right;
+ width: 30%;
+ background color: red;
+}
