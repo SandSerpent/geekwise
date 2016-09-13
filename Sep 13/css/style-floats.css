@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+}
+div {
+  height: 500px;
+  width: 25%;
+  background-color: blue;
+  float: left;
+}
+section {
+  width: 73%;
+  height: 500px;
+  background-color: rgb(184, 30, 184);
+  float: right;
+}
+main::after {
+  content: "";
+  display: block;
+  clear: both;
+}
