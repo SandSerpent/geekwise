@@ -1,0 +1,61 @@
+/*section {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+section > div {
+  flex: 1;
+}
+section > div:nth-child(2) {
+  display: flex;
+}
+section > div:nth-child(2) div {
+  flex: 1;
+}
+section div.div1 {
+  background-color: hsl(185, 75%, 42%);
+}
+section div.div2 {
+  background-color: rgb(10, 91, 44);
+  flex: 4;
+}
+section div.div3 {
+  background-color: hsl(283, 86%, 35%);
+}
+section div.div4 {
+  background-color: rgb(80, 6, 8);
+}*/
+section  {
+  padding: 0 10%
+}
+.fc {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.fc div {
+  width: 50%
+}
+.fc img {
+  float: left;
+  border-radius: 100%;
+}
+section div:nth-of-type(1) {
+  background-color: green;
+}
+section div:nth-of-type(2) {
+  background-color: blue;
+}
+section div:nth-of-type(3) {
+  background-color: black;
+}
+section div:nth-of-type(4) {
+  background-color:red
+}
+section div:nth-of-type(5) {
+  background-color: yellow;
+}
+section div:nth-of-type(6) {
+  background-color: gray;
+}

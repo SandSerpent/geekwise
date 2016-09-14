@@ -1,6 +1,6 @@
 p {
   display: flex;
-  justify-content: flex-start;;
+  justify-content: space-between;
   align-items: flex-start;
   align-content: flex-start;
   flex-direction: row;
