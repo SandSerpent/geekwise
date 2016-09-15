@@ -1,0 +1,29 @@
+section {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+aside {
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+
+
+}
+aside div img {
+
+}
+aside div:nth-of-type(1) {
+  background-color: green;
+  flex: 1;
+}
+aside div:nth-of-type(2) {
+  background-color: blue;
+  flex: 1;
+}
+aside div:nth-of-type(3) {
+  background-color: pink;
+  flex: 1;
+}
