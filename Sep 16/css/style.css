@@ -1,0 +1,37 @@
+nav {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+header h1 {
+  flex: 2;
+}
+header ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: space-around;
+}
+ul li {
+  text-decoration: none;
+  display: inline-block;
+}
+main form {
+  display: flex;
+}
+main textarea {
+  width: 25%;
+}
+table, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+table {
+  height: 300px;
+  width: 300px;
+}
+td {
+  width: 30px;
+  height: 30px;
+}
