@@ -1,0 +1,92 @@
+body {
+  margin-bottom: 0;
+  font-family: sans-serif;
+}
+main {
+  margin: 10%;
+}
+div.content {
+  margin: 100px auto;
+  display:flex;
+
+}
+.content div, .content form{
+  flex:1;
+}
+section#contact .content {
+    align-items: center;
+}
+address{
+  margin-bottom: 40px;
+  margin-top: 40px;
+
+}
+address a{
+  display:inline-block;
+  text-decoration: none;
+}
+form div {
+  display: flex;
+}
+hr {
+  width:30px;
+  height: 3px;
+  background-color: hsl(268, 90%, 94%);
+  color: hsl(77, 26%, 100%)
+}
+h1 {
+  text-align: center;
+  color: hsl(289, 39%, 35%);
+  margin-bottom: 40px;
+}
+ h4 {
+  color:hsl(289, 39%, 35%);
+}
+a {
+  color: hsl(268, 90%, 70%);
+}
+form input [type="text"], form input [type="email"]{
+flex:1;
+}
+form {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+
+}
+form textarea {
+  flex:1;
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 300px;
+  align-items: flex-end;
+}
+form input[type="text"], form input[type="email"] {
+display: flex;
+    flex:1;
+}
+form input[type="text"], form input[type="email"],
+form textarea {
+  margin-bottom: 10px;
+  background-color: hsl(268, 90%, 94%);
+  padding: 5px ;
+  border: none;
+  padding:10px 15px;
+
+}
+
+form input[type="submit"]{
+  justify-content: flex-start;
+  align-self: flex-end;
+  background-color: hsl(289, 39%, 35%);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+}
+footer {
+  margin-left: 0;
+  margin-right: 0;
+}
+img {
+  width:100%
+}

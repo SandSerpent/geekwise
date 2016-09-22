@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  text-transform:
+  uppercase;
+  padding: 10px 20px;
+  background-color: steelblue;
+}
+nav ul {
+  display: inline-flex;
+  align-items: center;
+  list-style: none;
+}
+nav * {
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  padding: 10px;
+  margin: 0 5px ;
+  font-size: 80%;
+}
+nav ul a {
+  text-decoration: none;
+  color: inherit;
+}
+.content {
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+#lmao {
+  text-align: center;
+  background-color: cornsilk;
+  position: relative;
+  padding: 50px 0 300px;
+  overflow: hidden;
+}
+input:nth-of-type(3){
+  background-color: steelblue;
+}
+div * {
+  margin: 5px;
+}
+input {
+  display: flex;
+  font-size: 20px;
+  height: 30px;
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+  margin: 5px auto;
+}

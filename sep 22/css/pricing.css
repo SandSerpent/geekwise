@@ -1,0 +1,61 @@
+body {
+  font-family: sans-serif;
+}
+hr {
+  width: 5%;
+  margin-top: 100px;
+  border-color: hsl(291, 60%, 75%);
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  color: hsl(292, 25%, 51%);
+}
+.parentdiv {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  text-align: center;
+  margin: 0 auto;
+}
+div.div1,
+div.div3,
+div.div2  {
+  flex: 1;
+  border-top: 1px hsl(291, 44%, 55%) solid;
+  border-left: 1px hsl(291, 44%, 55%) solid;
+  border-right: 1px hsl(291, 44%, 55%) solid;
+  border-bottom: 1px hsl(291, 44%, 55%) solid;
+  margin: 0 90px;
+  padding: 50px;
+}
+
+div.sabaton {
+  background-color: hsl(277, 25%, 70%);
+}
+h4 {
+  color: hsl(289, 58%, 40%);
+}
+p.number {
+  font-size: 25px;
+  color: hsl(289, 69%, 21%);
+}
+h6 {
+  color: hsl(286, 69%, 49%)
+}
+button {
+  background-color: hsl(286, 100%, 38%);
+  border-color: white;
+  color: white;
+}
+hr.dirtbag {
+  width: 100%;
+  margin: 0;
+}
+p.small {
+  font-size: 10px;
+}
+hr.vacuum {
+  width: 75%;
+  margin: auto;
+}
