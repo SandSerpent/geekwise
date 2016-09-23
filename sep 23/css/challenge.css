@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+h1 {
+  float: left;
+  margin-left: 35%;
+  width: 100%;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+nav ul li {
+  display: inline-block;
+}
+#div1 {
+  display: flex;
+  justify-content: flex-start;
+}
+#div2 {
+  display: flex;
+  justify-content: flex-start;
+}
+#div3 {
+  display: flex;
+  justify-content: flex-start;
+}
+#div4 {
+  display: flex;
+  justify-content: flex-start;
+}
+#div5 {
+  display: flex;
+  justify-content: flex-start;
+}
+#div6 {
+  display: flex;
+  justify-content: flex-start;
+}
