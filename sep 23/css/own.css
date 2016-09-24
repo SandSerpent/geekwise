@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+hr {
+  width: 20px;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+section div {
+  display: flex;
+  justify-content: flex-start;
+}
