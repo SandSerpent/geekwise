@@ -15,27 +15,11 @@ nav ul {
 nav ul li {
   display: inline-block;
 }
+main {
+  display: flex;
+  justify-content: space-around;;
+
+}
 #div1 {
-  display: flex;
-  justify-content: flex-start;
-}
-#div2 {
-  display: flex;
-  justify-content: flex-start;
-}
-#div3 {
-  display: flex;
-  justify-content: flex-start;
-}
-#div4 {
-  display: flex;
-  justify-content: flex-start;
-}
-#div5 {
-  display: flex;
-  justify-content: flex-start;
-}
-#div6 {
-  display: flex;
-  justify-content: flex-start;
+  order: 2;
 }

@@ -1,0 +1,58 @@
+@import
+'https://fonts.googleapis.com/css?family=Pacifico';
+@import
+'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css';
+body {
+  margin: 0;
+  background-color: hsl(194, 6%, 77%);
+}
+header {
+  background-image: url("../img/banner.jpg")
+}
+header div h1 {
+  font-family: 'Pacifico', cursive;
+  color: white;
+}
+header div {
+  display: flex;
+  justify-content: center;
+}
+header hr {
+  width: 30%;
+  color: white;
+}
+header a {
+  text-decoration: underline dotted;
+  color: white;
+}
+header h5 {
+  color: white;
+}
+.fa {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+section {
+  background-color: white;
+  margin: 50px;
+  padding-bottom: 40px;
+}
+section div {
+  display: flex;
+  justify-content: center;
+}
+section div:nth-of-type(2) {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0 30%;
+}
+section aside {
+  display: flex;
+  justify-content: center;
+}
+button{
+  border: 2px solid hsl(204, 2%, 66%);
+  padding: 10px;
+}
