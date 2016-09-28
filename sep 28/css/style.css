@@ -1,0 +1,86 @@
+@import
+'https://fonts.googleapis.com/css?family=Oswald';
+@import
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css";
+body {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+main {
+  background-color: hsl(300, 13%, 86%);
+}
+header {
+  height: 300px;
+  text-align: center;
+  background-image: url(../img/dark_tint.png),url(../img/bokeh_car_lights_bg.jpg);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  align-items: flex-start;
+}
+nav ul {
+  display: inline-flex;
+  list-style: none;
+}
+nav ul li {
+  padding: 10px;
+}
+nav h4 {
+  color: white;
+}
+nav li {
+  color: hsl(101, 5%, 61%);
+}
+ul li:hover, .sign {
+  background-color: white;
+  border-top-right-radius: 20px 40%;
+  border-top-left-radius: 20px 40%;
+  border-bottom-right-radius: 20px 40%;
+  border-bottom-left-radius: 20px 40%;
+}
+header div {
+  color: white;
+}
+header button {
+  color: white;
+  background-color: rgb(59, 167, 191);
+  border: 2px solid rgb(59, 167, 191);
+  border-radius: 40px;
+  padding: 1%;
+}
+.first {
+  text-align: center;
+  margin-top: 50px;
+}
+section:nth-of-type(1) {
+  text-align: center;
+  display: flex;
+}
+section:nth-of-type(1) div {
+  padding: 20px;
+  background-color: white;
+  color: rgb(129, 129, 129);
+  margin: 10px;
+}
+.fa-cloud, .fa-desktop, .fa-rocket {
+  color: white;
+  border-radius: 30px;
+  padding: 20px
+}
+.fa-cloud {
+  background-color: hsl(201, 81%, 60%);
+  border: 3px solid hsl(201, 81%, 60%);
+}
+.fa-desktop {
+  background-color: hsl(125, 84%, 44%);
+  border: 3px solid hsl(125, 84%, 44%);
+}
+.fa-rocket {
+  background-color: hsl(349, 89%, 46%);
+  border: 3px solid hsl(349, 89%, 46%);
+}
+section {
+  margin: 0 50px
+}
