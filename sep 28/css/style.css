@@ -8,6 +8,7 @@ body {
 }
 main {
   background-color: hsl(300, 13%, 86%);
+  padding-bottom: 80px;
 }
 header {
   height: 300px;
@@ -57,6 +58,7 @@ header button {
 section:nth-of-type(1) {
   text-align: center;
   display: flex;
+  margin: 0 50px;
 }
 section:nth-of-type(1) div {
   padding: 20px;
@@ -81,6 +83,86 @@ section:nth-of-type(1) div {
   background-color: hsl(349, 89%, 46%);
   border: 3px solid hsl(349, 89%, 46%);
 }
-section {
-  margin: 0 50px
+.distinct {
+  margin-top: 80px;
+  text-align: center;
+}
+.distinct p {
+  color: rgb(129, 129, 129);
+}
+.distinct hr {
+  width: 70%;
+  color: rgb(129, 129, 129);
+}
+.second {
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+  padding-top: 10px;
+}
+.second img {
+  border-radius: 100%;
+}
+.blue hr {
+  width: 70%;
+}
+.bot {
+  text-align: center;
+  margin: 0 25%;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.bot button {
+  color: white;
+  background-color: rgb(59, 167, 191);
+  border: 2px solid rgb(59, 167, 191);
+  border-radius: 40px;
+  padding: 1%;
+}
+.almost {
+  background-color: rgb(59, 167, 191);
+  height: 450px;
+}
+.almost div:nth-of-type(1) {
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+  padding-top: 20px;
+}
+form {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-between;
+  margin: 0 25%;
+}
+form div {
+  padding-bottom: 10px;
+}
+form input {
+  height: 25px;
+}
+form textarea {
+  margin: 0 25%;
+  height: 100px;
+}
+form button {
+  color: white;
+  background-color: rgb(46, 46, 46);
+  border: 2px solid rgb(59, 167, 191);
+  border-radius: 40px;
+  padding: 1%;
+  margin-top: 20px;
+  width: 40%;
+  position: relative;
+  left: 190px;
+}
+.foot {
+  display: flex;
+  justify-content: center;
+  background-color: hsla(249, 18%, 20%, 0.94);
+}
+.foot div {
+  margin: 0 20px;
 }
