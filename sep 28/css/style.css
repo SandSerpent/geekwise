@@ -34,7 +34,7 @@ nav h4 {
 nav li {
   color: hsl(101, 5%, 61%);
 }
-ul li:hover, .sign {
+header ul li:hover, .sign {
   background-color: white;
   border-top-right-radius: 20px 40%;
   border-top-left-radius: 20px 40%;
@@ -165,4 +165,8 @@ form button {
 }
 .foot div {
   margin: 0 20px;
+  color: hsl(187, 10%, 85%);
+}
+.foot div:hover {
+  display:
 }
