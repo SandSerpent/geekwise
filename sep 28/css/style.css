@@ -15,23 +15,23 @@ header {
   text-align: center;
   background-image: url(../img/dark_tint.png),url(../img/bokeh_car_lights_bg.jpg);
 }
-nav {
+header nav {
   display: flex;
   justify-content: space-between;
   padding: 0 20px;
   align-items: flex-start;
 }
-nav ul {
+header nav ul {
   display: inline-flex;
   list-style: none;
 }
-nav ul li {
+header nav ul li {
   padding: 10px;
 }
-nav h4 {
+header nav h4 {
   color: white;
 }
-nav li {
+header nav li {
   color: hsl(101, 5%, 61%);
 }
 header ul li:hover, .sign {
@@ -162,11 +162,42 @@ form button {
   display: flex;
   justify-content: center;
   background-color: hsla(249, 18%, 20%, 0.94);
+  margin-bottom: 0;
 }
 .foot div {
-  margin: 0 20px;
+  padding: 0 20px;
   color: hsl(187, 10%, 85%);
 }
 .foot div:hover {
   display:
+}
+.foot li {
+  list-style: none;
+}
+footer {
+  background-color: hsla(249, 18%, 20%, 0.94);
+  padding-bottom: 50px;
+}
+footer hr {
+  width: 70%;
+  margin-top: 0;
+  color: hsl(231, 6%, 22%);
+}
+footer div {
+  display: flex;
+  padding-left: 10%;
+  padding-top: 20px;
+}
+footer li {
+  display: inline-flex;
+  list-style: none;
+  padding: 0 20px;
+  color: hsl(101, 5%, 61%);
+}
+footer i {
+  padding: 0 5px;
+}
+footer div div {
+  padding-left: 240px;
+  font-size: 30px;
 }
