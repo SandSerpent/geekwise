@@ -26,8 +26,14 @@ header ul {
   margin-left: 50%;
 }
 header ul li {
-  padding: 10px;
   color: white;
+}
+header ul li::after{
+  content: "/";
+  padding: 5px;
+}
+.l::after{
+  content: none;
 }
 header h1 {
   font-size: 250px;
@@ -40,7 +46,7 @@ section {
   flex-wrap: wrap;
   height: 800px
 }
-section div {
+section:nth-of-type(1) div {
   width: 25%;
   color: white;
   background-size: cover;
@@ -77,22 +83,24 @@ section div:nth-of-type(8) {
 .news hr {
   width: 90%;
 }
+.news hr::before {
+  background-color: hsl(192, 85%, 38%);
+}
 .row {
-  height: 200px;
+  /*height: 250px;*/
   display: flex;
+  justify-content: space-between;
+  padding-top: 4%;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-bottom: 50px;
 }
 .row div {
   background-size: cover;
+  width: 20%;
+  color: hsl(120, 2%, 34%);
 }
-.row div:nth-of-type(1) {
-  background-image: url(../img/home-9-270x270.jpg);
-}
-.row div:nth-of-type(2) {
-  background-image: url(../img/home-10-270x270.jpg);
-}
-.row div:nth-of-type(3) {
-  background-image: url(../img/home-11-270x270.jpg);
-}
-.row div:nth-of-type(4) {
-  background-image: url(../img/home-12-270x270.jpg);
+.row a {
+  text-decoration: none;
+  color: hsl(207, 78%, 53%);
 }
