@@ -116,7 +116,7 @@ header h2 {
   margin-left: 10%;
   margin-top: 50px;
   font-size: 50px;
-  margin-bottom: 0;
+  margin-bottom: 30px;
 }
 .news hr {
   width: 80%;
@@ -126,6 +126,7 @@ header h2 {
 .row {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 8%;
 }
 .row div {
   width: 20%;
@@ -135,9 +136,6 @@ header h2 {
 }
 .row div p {
   color: hsl(132, 2%, 39%);
-}
-.row {
-  margin-bottom: 8%;
 }
 .fa-arrow-right {
   margin-left: 20px;
@@ -158,4 +156,43 @@ header h2 {
   position: relative;
   padding-left: 60%;
   padding-top: 8%;
+}
+.gray div h1 {
+  margin-bottom: 0;
+}
+.gray div > div hr {
+  margin-right: 10%;
+}
+.gray div > div {
+  margin-bottom: 60px;
+}
+.gray div div:nth-of-type(2) {
+  display: flex;
+  display: inline-flex;
+  background-color: hsl(191, 89%, 50%);
+}
+.pop h1 {
+  margin-left: 10%;
+  margin-top: 50px;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.pop hr {
+  width: 80%;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.wave {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 8%;
+}
+.wave div {
+  width: 20%;
+}
+.wave h6 {
+  color: hsl(190, 89%, 50%);
+}
+.wave div p {
+  color: hsl(132, 2%, 39%);
 }
