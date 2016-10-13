@@ -8,37 +8,28 @@
   <title>October 12</title>
 </head>
 <body>
-    <section id="contacts">
+  <section id="contacts">
 
-    <h2>contacts</h2>
-    <hr />
-    <hr />
-    <form>
-      <div>
-    <legend> <span> Name </span>
-      <input type="text" id="name" value="" placeholder=""/>
-    </legend>
-    <legend> <span>Email</span>
-      <input type="email" id="email" value="" placeholder=""/>
-    </legend>
-    </div>
+  <h2>contacts</h2>
+  <hr />
+  <hr />
+  <form>
     <div>
-      <textarea id="message" cols="30" rows="2" placeholder="Message"></textarea>
-    <!-- <span>  <input  type="submit" id="submit" value="SEND"/></span> -->
-    <button type="button" id="submit">SEND</button>
-    </div>
-    </form>
-  </section>
+  <legend> <span> Name </span>
+    <input type="text" id="name" value="" placeholder=""/>
+  </legend>
+  <legend> <span>Email</span>
+    <input type="email" id="email" value="" placeholder=""/>
+  </legend>
+  </div>
+  <div>
+    <textarea id="message" cols="30" rows="2" placeholder="Message"></textarea>
+  <!-- <span>  <input  type="submit" id="submit" value="SEND"/></span> -->
+  <button type="button" id="submit">SEND</button>
+  </div>
+  </form>
+</section>
 
-  <script>
-    var span = document.querySelectorAll('legend span');
-    // console.log(span);
-    for(var i = 0; i < span.length; i++) {
-        span[i].addEventListener('click', function(){
-          // console.log(this);
-          this.classList.toggle('placeholder');
-        });
-    }
-  </script>
+<script src="js/script.js"></script>
 </body>
 </html>
