@@ -30,6 +30,10 @@ header {
   background-color: white;
   font-family: 'Fraktur'
 }
+header h1 {
+  color: hsl(64, 87%, 47%);
+  border: .5 solid black;
+}
 header > div {
   width: 100%;
   margin: 0;
