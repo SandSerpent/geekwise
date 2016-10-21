@@ -101,7 +101,7 @@ nav ul li a:hover {
 }
 main .type1 {
   margin-left: 10%;
-  width: 47%;
+  flex: 2;
 }
 main .type1 h2 {
   font-family: 'BrushScript';
@@ -117,34 +117,34 @@ main .type1 p {
     -1px 1px 1px  hsl(5, 93%, 28%),
     1px 1px 1px  hsl(5, 93%, 28%);
 }
-main .type2 {
-  width: 30%;
-  margin-right: 2%;
-  margin-left: 8%;
+.type2 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-right: 10px;
 }
-aside .special {
-  margin-bottom: 40px;
-}
-main .type2 p {
+.type2 p {
   text-align: center;
 }
 .type2 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: white;
-  position: absolute;
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  margin-bottom: 30px;
 }
 .type2 h2 {
-  margin-left: 10px;
+  font-size: 1.5vw;
+  top: -2vw;
+  left: 1.5vw;
   background-color: white;
   position: absolute;
 }
-.type2 p {
-  margin-top: 55px;
-  border: 1.5px hsl(146, 6%, 72%) solid;
-  border-radius: 8%;
-  height: 100px;
-  padding-top: 10px;
-  position: relative;
-}
+
 .direct {
   padding-top: 10px;
 }
@@ -197,29 +197,53 @@ main .type2 p {
 }
 
 /*MENU*/
-
-.menu div {
-  display: flex;
+#menu {
 }
-.menu div h2 {
+#menu div {
+  display: flex;
+  flex-wrap: wrap;
+}
+#menu h2 {
+  flex: 3;
   font-family: 'BrushScript';
  color: white;
  margin-left: 8%;
- width: 60%;
  text-shadow:
    -1px -1px 1px  hsl(5, 93%, 28%),
    1px -1px 1px  hsl(5, 93%, 28%),
    -1px 1px 1px  hsl(5, 93%, 28%),
    1px 1px 1px  hsl(5, 93%, 28%);
 }
-.menu div span {
-  margin-top: 20px;
-  width: 40%;
-  font-size: 12px;
-  margin-left: 40px;
+#menu > div p {
+ flex: 2;
+ font-size: 13px;
+}
+div.men{
+  display: flex;
+  flex-direction: row;
+  border: none;
+}
+div.men div{
+  flex: 1;
+}
+#menu .type2 div {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+#menu a {
+  font-family: 'BrushScript';
+  margin-left: 10%;
+ color: white;
+ text-shadow:
+   -1px -1px 1px  hsl(5, 93%, 28%),
+   1px -1px 1px  hsl(5, 93%, 28%),
+   -1px 1px 1px  hsl(5, 93%, 28%),
+   1px 1px 1px  hsl(5, 93%, 28%);
 }
 
+
 /*NEWS*/
+
 main {
   padding-bottom: 50px;
   margin-bottom: 50px;
@@ -272,10 +296,10 @@ main {
 }
 
 /*CONTACTS*/
+
 .contact1 h1 {
   font-family: 'BrushScript';
  color: white;
- margin-left: 91.8%;
  margin-right: 0;
  margin-bottom: 0;
  text-shadow:
@@ -284,13 +308,53 @@ main {
    -1px 1px 1px  hsl(5, 93%, 28%),
    1px 1px 1px  hsl(5, 93%, 28%);
 }
+.contact1 h1:nth-of-type(1) {
+  margin-left: 92%;
+}
+.contact1 h1:nth-of-type(2), .contact1 h1:nth-of-type(3) {
+  margin-left: 86%;
+}
+.contact1 hr {
+  width: 90%;
+}
 .contact1 p {
   font-size: 13px;
 }
-.contact1 p:nth-of-type(1) {
+.contact1 > p {
   margin-left: 7%;
 }
-.contact1 div {
+.contact1 div:nth-of-type(2), .contact1 div:nth-of-type(3) {
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+.contact1 div:nth-of-type(1) {
+  margin-top:
+}
+.contact1 div:nth-of-type(1), .contact1 div:nth-of-type(2) {
   display: flex;
   margin-left: 26%;
+}
+.contact1 div:nth-of-type(3) {
+  display: flex;
+  margin-left: 23%;
+}
+.contact1 div:nth-of-type(1) input, .contact1 div:nth-of-type(2) input {
+  height: 20px;
+}
+.contact1 a:nth-of-type(1) {
+  margin-left: 31.5%;
+  color: hsl(9, 86%, 17%);
+  border: 1px solid hsl(9, 86%, 17%);
+  text-decoration: none;
+  padding: 2px 2px;
+}
+#pick {
+  margin-left: 20%;
+}
+#area {
+  margin-left: 45%;
+}
+.address {
+  margin-top: 50px;
+  margin-left: 45%;
 }
