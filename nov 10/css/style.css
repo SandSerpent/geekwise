@@ -242,7 +242,7 @@ footer div:nth-of-type(2) p {
 }
 
 
-@media screen and (min-width:445px) {
+@media screen and (max-width:445px) {
   header h1 {
     padding-left: 12%;
   }
