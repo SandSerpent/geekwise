@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+body {
+  margin: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+.sec1 {
+  display: flex;
+}
+.sec1 h5 {
+  margin-top: 0;
+  font-size: 9px;
+  margin-left: 40px;
+}
+.sec1 div:nth-of-type(1) img {
+ margin-top: 40px;
+ margin-left: 40px;
+}
+.sec1 div:nth-of-type(2) {
+  margin-top: 0;
+}
+.sec1 ul {
+  display: flex;
+  list-style: none;
+  margin-left: 38%;
+  margin-top: 0;
+}
+.sec1 div li:nth-of-type(1) {
+  background: #3bb375;
+  color: white;
+}
+.sec1 li {
+  margin-left: 5px;
+  padding-top: 90px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: .2s all ease-in-out;
+}
+.sec1 div li:hover {
+  transition: .2s all ease-in-out;
+  background: #3bb375;
+}
+.sec1 a {
+  text-decoration: none;
+  color: black;
+}
+.sec1 a:hover {
+  color: white;
+}
+.sec1 div:nth-of-type(2) li:nth-of-type(1) a {
+  color: white;
+}
+header {
+  background-image: url(../img/side3.jpg);
+  background-repeat: no-repeat;
+  height: 563px;
+  background-size: cover;
+  color: white;
+}
+header h1 {
+  margin-top: 0;
+  padding-top: 200px;
+  margin-bottom: 0;
+  font-size: 50px;
+}
+header h2 {
+  margin-top: 0;
+  font-size: 30px;
+}
+header h1, header h2 {
+  text-align: center;
+}
+header > div {
+  display: flex;
+}
+header > div div {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 25px 25px;
+  background-image: url(../img/banner.png);
+}
+header > div div:nth-of-type(1) {
+  margin-left: 5%;
+}
+header > div div:nth-of-type(3) {
+  margin-right: 5%;
+}
