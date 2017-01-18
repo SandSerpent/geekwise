@@ -1,0 +1,41 @@
+$key-color: gray;
+$secondary-color: lime;
+$tertiary-color: yellow;
+$primary-color: red;
+
+// headline styles
+
+// size variable
+// font variable
+// color variable
+
+
+
+// button styles
+$red: darken( $primary-color, 5% );
+$yellow: adjust-hue( $primary-color, 48deg );
+$orange: adjust-hue( $primary-color, 60deg );
+$green: adjust-hue( $primary-color, 80deg );
+$blue: adjust-hue( $primary-color, 200deg );
+$violet: adjust-hue( $primary-color, 290deg );
+
+$colors: $red $yellow $orange $green $blue $violet;
+
+$i: 1;
+
+// $btn-color: hsl(100, 45%, 50%);
+// $color-2: adjust-hue($btn-color, 50deg)
+// $btn-lite: invert( $btn-color );
+// $btn-dark: complement( $btn-color );
+// $btn-color: hsl(300, 45%, 50%);
+// $btn-lite: hsl(300, 45%, 60%);
+// $btn-dark: hsl(300, 45%, 40%);
+
+// COLOR FUNCTIONS
+/*
+  lighten( 2 arguments );
+  darken( 2 argumens );
+  invert( 1 argument );
+  complement( 1 argument );
+  adjust-hue( 2 arguements );
+*/

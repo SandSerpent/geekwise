@@ -1,0 +1,29 @@
+/*
+  lighten( 2 arguments );
+  darken( 2 argumens );
+  invert( 1 argument );
+  complement( 1 argument );
+  adjust-hue( 2 arguements );
+*/
+body {
+  background-color: gray;
+  color: lime;
+  border: 1px solid yellow; }
+
+li:nth-child(1) {
+  color: #e60000; }
+
+li:nth-child(2) {
+  color: #ffcc00; }
+
+li:nth-child(3) {
+  color: yellow; }
+
+li:nth-child(4) {
+  color: #aaff00; }
+
+li:nth-child(5) {
+  color: #00aaff; }
+
+li:nth-child(6) {
+  color: #d500ff; }
