@@ -1,0 +1,743 @@
+html { min-height: 100%; }
+
+body { padding-top: 150px; background-color: black; color: #fafafa; font-size: 32px; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
+
+ul { padding: 0; margin: 0; list-style: none; margin-top: 150px; -webkit-align-self: flex-start; -ms-flex-item-align: start; align-self: flex-start; }
+
+ul li { position: relative; }
+
+ul li:nth-child(1) { background-color: #ff0400; left: 3px; }
+
+ul li:nth-child(2) { background-color: #ff0900; left: 6px; }
+
+ul li:nth-child(3) { background-color: #ff0d00; left: 9px; }
+
+ul li:nth-child(4) { background-color: #ff1100; left: 12px; }
+
+ul li:nth-child(5) { background-color: #ff1500; left: 15px; }
+
+ul li:nth-child(6) { background-color: #ff1a00; left: 18px; }
+
+ul li:nth-child(7) { background-color: #ff1e00; left: 21px; }
+
+ul li:nth-child(8) { background-color: #ff2200; left: 24px; }
+
+ul li:nth-child(9) { background-color: #ff2600; left: 27px; }
+
+ul li:nth-child(10) { background-color: #ff2b00; left: 30px; }
+
+ul li:nth-child(11) { background-color: #ff2f00; left: 33px; }
+
+ul li:nth-child(12) { background-color: #ff3300; left: 36px; }
+
+ul li:nth-child(13) { background-color: #ff3700; left: 39px; }
+
+ul li:nth-child(14) { background-color: #ff3c00; left: 42px; }
+
+ul li:nth-child(15) { background-color: #ff4000; left: 45px; }
+
+ul li:nth-child(16) { background-color: #ff4400; left: 48px; }
+
+ul li:nth-child(17) { background-color: #ff4800; left: 51px; }
+
+ul li:nth-child(18) { background-color: #ff4d00; left: 54px; }
+
+ul li:nth-child(19) { background-color: #ff5100; left: 57px; }
+
+ul li:nth-child(20) { background-color: #ff5500; left: 60px; }
+
+ul li:nth-child(21) { background-color: #ff5900; left: 63px; }
+
+ul li:nth-child(22) { background-color: #ff5e00; left: 66px; }
+
+ul li:nth-child(23) { background-color: #ff6200; left: 69px; }
+
+ul li:nth-child(24) { background-color: #ff6600; left: 72px; }
+
+ul li:nth-child(25) { background-color: #ff6a00; left: 75px; }
+
+ul li:nth-child(26) { background-color: #ff6f00; left: 78px; }
+
+ul li:nth-child(27) { background-color: #ff7300; left: 81px; }
+
+ul li:nth-child(28) { background-color: #ff7700; left: 84px; }
+
+ul li:nth-child(29) { background-color: #ff7b00; left: 87px; }
+
+ul li:nth-child(30) { background-color: #ff8000; left: 90px; }
+
+ul li:nth-child(31) { background-color: #ff8400; left: 93px; }
+
+ul li:nth-child(32) { background-color: #ff8800; left: 96px; }
+
+ul li:nth-child(33) { background-color: darkorange; left: 99px; }
+
+ul li:nth-child(34) { background-color: #ff9100; left: 102px; }
+
+ul li:nth-child(35) { background-color: #ff9500; left: 105px; }
+
+ul li:nth-child(36) { background-color: #ff9900; left: 108px; }
+
+ul li:nth-child(37) { background-color: #ff9d00; left: 111px; }
+
+ul li:nth-child(38) { background-color: #ffa200; left: 114px; }
+
+ul li:nth-child(39) { background-color: #ffa600; left: 117px; }
+
+ul li:nth-child(40) { background-color: #ffaa00; left: 120px; }
+
+ul li:nth-child(41) { background-color: #ffae00; left: 123px; }
+
+ul li:nth-child(42) { background-color: #ffb300; left: 126px; }
+
+ul li:nth-child(43) { background-color: #ffb700; left: 129px; }
+
+ul li:nth-child(44) { background-color: #ffbb00; left: 132px; }
+
+ul li:nth-child(45) { background-color: #ffbf00; left: 135px; }
+
+ul li:nth-child(46) { background-color: #ffc400; left: 138px; }
+
+ul li:nth-child(47) { background-color: #ffc800; left: 141px; }
+
+ul li:nth-child(48) { background-color: #ffcc00; left: 144px; }
+
+ul li:nth-child(49) { background-color: #ffd000; left: 147px; }
+
+ul li:nth-child(50) { background-color: #ffd500; left: 150px; }
+
+ul li:nth-child(51) { background-color: #ffd900; left: 153px; }
+
+ul li:nth-child(52) { background-color: #ffdd00; left: 156px; }
+
+ul li:nth-child(53) { background-color: #ffe100; left: 159px; }
+
+ul li:nth-child(54) { background-color: #ffe600; left: 162px; }
+
+ul li:nth-child(55) { background-color: #ffea00; left: 165px; }
+
+ul li:nth-child(56) { background-color: #ffee00; left: 168px; }
+
+ul li:nth-child(57) { background-color: #fff200; left: 171px; }
+
+ul li:nth-child(58) { background-color: #fff700; left: 174px; }
+
+ul li:nth-child(59) { background-color: #fffb00; left: 177px; }
+
+ul li:nth-child(60) { background-color: yellow; left: 180px; }
+
+ul li:nth-child(61) { background-color: #fbff00; left: 183px; }
+
+ul li:nth-child(62) { background-color: #f7ff00; left: 186px; }
+
+ul li:nth-child(63) { background-color: #f2ff00; left: 189px; }
+
+ul li:nth-child(64) { background-color: #eeff00; left: 192px; }
+
+ul li:nth-child(65) { background-color: #eaff00; left: 195px; }
+
+ul li:nth-child(66) { background-color: #e6ff00; left: 198px; }
+
+ul li:nth-child(67) { background-color: #e1ff00; left: 201px; }
+
+ul li:nth-child(68) { background-color: #ddff00; left: 204px; }
+
+ul li:nth-child(69) { background-color: #d9ff00; left: 207px; }
+
+ul li:nth-child(70) { background-color: #d5ff00; left: 210px; }
+
+ul li:nth-child(71) { background-color: #d0ff00; left: 213px; }
+
+ul li:nth-child(72) { background-color: #ccff00; left: 216px; }
+
+ul li:nth-child(73) { background-color: #c8ff00; left: 219px; }
+
+ul li:nth-child(74) { background-color: #c4ff00; left: 222px; }
+
+ul li:nth-child(75) { background-color: #bfff00; left: 225px; }
+
+ul li:nth-child(76) { background-color: #bbff00; left: 228px; }
+
+ul li:nth-child(77) { background-color: #b7ff00; left: 231px; }
+
+ul li:nth-child(78) { background-color: #b3ff00; left: 234px; }
+
+ul li:nth-child(79) { background-color: #aeff00; left: 237px; }
+
+ul li:nth-child(80) { background-color: #aaff00; left: 240px; }
+
+ul li:nth-child(81) { background-color: #a6ff00; left: 243px; }
+
+ul li:nth-child(82) { background-color: #a2ff00; left: 246px; }
+
+ul li:nth-child(83) { background-color: #9dff00; left: 249px; }
+
+ul li:nth-child(84) { background-color: #99ff00; left: 252px; }
+
+ul li:nth-child(85) { background-color: #95ff00; left: 255px; }
+
+ul li:nth-child(86) { background-color: #91ff00; left: 258px; }
+
+ul li:nth-child(87) { background-color: #8cff00; left: 261px; }
+
+ul li:nth-child(88) { background-color: #88ff00; left: 264px; }
+
+ul li:nth-child(89) { background-color: #84ff00; left: 267px; }
+
+ul li:nth-child(90) { background-color: #80ff00; left: 270px; }
+
+ul li:nth-child(91) { background-color: #7bff00; left: 273px; }
+
+ul li:nth-child(92) { background-color: #77ff00; left: 276px; }
+
+ul li:nth-child(93) { background-color: #73ff00; left: 279px; }
+
+ul li:nth-child(94) { background-color: #6fff00; left: 282px; }
+
+ul li:nth-child(95) { background-color: #6aff00; left: 285px; }
+
+ul li:nth-child(96) { background-color: #66ff00; left: 288px; }
+
+ul li:nth-child(97) { background-color: #62ff00; left: 291px; }
+
+ul li:nth-child(98) { background-color: #5eff00; left: 294px; }
+
+ul li:nth-child(99) { background-color: #59ff00; left: 297px; }
+
+ul li:nth-child(100) { background-color: #55ff00; left: 300px; }
+
+ul li:nth-child(101) { background-color: #51ff00; left: 303px; }
+
+ul li:nth-child(102) { background-color: #4dff00; left: 306px; }
+
+ul li:nth-child(103) { background-color: #48ff00; left: 309px; }
+
+ul li:nth-child(104) { background-color: #44ff00; left: 312px; }
+
+ul li:nth-child(105) { background-color: #40ff00; left: 315px; }
+
+ul li:nth-child(106) { background-color: #3cff00; left: 318px; }
+
+ul li:nth-child(107) { background-color: #37ff00; left: 321px; }
+
+ul li:nth-child(108) { background-color: #33ff00; left: 324px; }
+
+ul li:nth-child(109) { background-color: #2fff00; left: 327px; }
+
+ul li:nth-child(110) { background-color: #2bff00; left: 330px; }
+
+ul li:nth-child(111) { background-color: #26ff00; left: 333px; }
+
+ul li:nth-child(112) { background-color: #22ff00; left: 336px; }
+
+ul li:nth-child(113) { background-color: #1eff00; left: 339px; }
+
+ul li:nth-child(114) { background-color: #1aff00; left: 342px; }
+
+ul li:nth-child(115) { background-color: #15ff00; left: 345px; }
+
+ul li:nth-child(116) { background-color: #11ff00; left: 348px; }
+
+ul li:nth-child(117) { background-color: #0dff00; left: 351px; }
+
+ul li:nth-child(118) { background-color: #09ff00; left: 354px; }
+
+ul li:nth-child(119) { background-color: #04ff00; left: 357px; }
+
+ul li:nth-child(120) { background-color: lime; left: 360px; }
+
+ul li:nth-child(121) { background-color: #00ff04; left: 363px; }
+
+ul li:nth-child(122) { background-color: #00ff09; left: 366px; }
+
+ul li:nth-child(123) { background-color: #00ff0d; left: 369px; }
+
+ul li:nth-child(124) { background-color: #00ff11; left: 372px; }
+
+ul li:nth-child(125) { background-color: #00ff15; left: 375px; }
+
+ul li:nth-child(126) { background-color: #00ff1a; left: 378px; }
+
+ul li:nth-child(127) { background-color: #00ff1e; left: 381px; }
+
+ul li:nth-child(128) { background-color: #00ff22; left: 384px; }
+
+ul li:nth-child(129) { background-color: #00ff26; left: 387px; }
+
+ul li:nth-child(130) { background-color: #00ff2b; left: 390px; }
+
+ul li:nth-child(131) { background-color: #00ff2f; left: 393px; }
+
+ul li:nth-child(132) { background-color: #00ff33; left: 396px; }
+
+ul li:nth-child(133) { background-color: #00ff37; left: 399px; }
+
+ul li:nth-child(134) { background-color: #00ff3c; left: 402px; }
+
+ul li:nth-child(135) { background-color: #00ff40; left: 405px; }
+
+ul li:nth-child(136) { background-color: #00ff44; left: 408px; }
+
+ul li:nth-child(137) { background-color: #00ff48; left: 411px; }
+
+ul li:nth-child(138) { background-color: #00ff4d; left: 414px; }
+
+ul li:nth-child(139) { background-color: #00ff51; left: 417px; }
+
+ul li:nth-child(140) { background-color: #00ff55; left: 420px; }
+
+ul li:nth-child(141) { background-color: #00ff59; left: 423px; }
+
+ul li:nth-child(142) { background-color: #00ff5e; left: 426px; }
+
+ul li:nth-child(143) { background-color: #00ff62; left: 429px; }
+
+ul li:nth-child(144) { background-color: #00ff66; left: 432px; }
+
+ul li:nth-child(145) { background-color: #00ff6a; left: 435px; }
+
+ul li:nth-child(146) { background-color: #00ff6f; left: 438px; }
+
+ul li:nth-child(147) { background-color: #00ff73; left: 441px; }
+
+ul li:nth-child(148) { background-color: #00ff77; left: 444px; }
+
+ul li:nth-child(149) { background-color: #00ff7b; left: 447px; }
+
+ul li:nth-child(150) { background-color: #00ff80; left: 450px; }
+
+ul li:nth-child(151) { background-color: #00ff84; left: 453px; }
+
+ul li:nth-child(152) { background-color: #00ff88; left: 456px; }
+
+ul li:nth-child(153) { background-color: #00ff8c; left: 459px; }
+
+ul li:nth-child(154) { background-color: #00ff91; left: 462px; }
+
+ul li:nth-child(155) { background-color: #00ff95; left: 465px; }
+
+ul li:nth-child(156) { background-color: #00ff99; left: 468px; }
+
+ul li:nth-child(157) { background-color: #00ff9d; left: 471px; }
+
+ul li:nth-child(158) { background-color: #00ffa2; left: 474px; }
+
+ul li:nth-child(159) { background-color: #00ffa6; left: 477px; }
+
+ul li:nth-child(160) { background-color: #00ffaa; left: 480px; }
+
+ul li:nth-child(161) { background-color: #00ffae; left: 483px; }
+
+ul li:nth-child(162) { background-color: #00ffb3; left: 486px; }
+
+ul li:nth-child(163) { background-color: #00ffb7; left: 489px; }
+
+ul li:nth-child(164) { background-color: #00ffbb; left: 492px; }
+
+ul li:nth-child(165) { background-color: #00ffbf; left: 495px; }
+
+ul li:nth-child(166) { background-color: #00ffc4; left: 498px; }
+
+ul li:nth-child(167) { background-color: #00ffc8; left: 501px; }
+
+ul li:nth-child(168) { background-color: #00ffcc; left: 504px; }
+
+ul li:nth-child(169) { background-color: #00ffd0; left: 507px; }
+
+ul li:nth-child(170) { background-color: #00ffd5; left: 510px; }
+
+ul li:nth-child(171) { background-color: #00ffd9; left: 513px; }
+
+ul li:nth-child(172) { background-color: #00ffdd; left: 516px; }
+
+ul li:nth-child(173) { background-color: #00ffe1; left: 519px; }
+
+ul li:nth-child(174) { background-color: #00ffe6; left: 522px; }
+
+ul li:nth-child(175) { background-color: #00ffea; left: 525px; }
+
+ul li:nth-child(176) { background-color: #00ffee; left: 528px; }
+
+ul li:nth-child(177) { background-color: #00fff2; left: 531px; }
+
+ul li:nth-child(178) { background-color: #00fff7; left: 534px; }
+
+ul li:nth-child(179) { background-color: #00fffb; left: 537px; }
+
+ul li:nth-child(180) { background-color: cyan; left: 540px; }
+
+ul li:nth-child(181) { background-color: #00fbff; left: 543px; }
+
+ul li:nth-child(182) { background-color: #00f7ff; left: 546px; }
+
+ul li:nth-child(183) { background-color: #00f2ff; left: 549px; }
+
+ul li:nth-child(184) { background-color: #00eeff; left: 552px; }
+
+ul li:nth-child(185) { background-color: #00eaff; left: 555px; }
+
+ul li:nth-child(186) { background-color: #00e6ff; left: 558px; }
+
+ul li:nth-child(187) { background-color: #00e1ff; left: 561px; }
+
+ul li:nth-child(188) { background-color: #00ddff; left: 564px; }
+
+ul li:nth-child(189) { background-color: #00d9ff; left: 567px; }
+
+ul li:nth-child(190) { background-color: #00d5ff; left: 570px; }
+
+ul li:nth-child(191) { background-color: #00d0ff; left: 573px; }
+
+ul li:nth-child(192) { background-color: #00ccff; left: 576px; }
+
+ul li:nth-child(193) { background-color: #00c8ff; left: 579px; }
+
+ul li:nth-child(194) { background-color: #00c4ff; left: 582px; }
+
+ul li:nth-child(195) { background-color: deepskyblue; left: 585px; }
+
+ul li:nth-child(196) { background-color: #00bbff; left: 588px; }
+
+ul li:nth-child(197) { background-color: #00b7ff; left: 591px; }
+
+ul li:nth-child(198) { background-color: #00b3ff; left: 594px; }
+
+ul li:nth-child(199) { background-color: #00aeff; left: 597px; }
+
+ul li:nth-child(200) { background-color: #00aaff; left: 600px; }
+
+ul li:nth-child(201) { background-color: #00a6ff; left: 603px; }
+
+ul li:nth-child(202) { background-color: #00a2ff; left: 606px; }
+
+ul li:nth-child(203) { background-color: #009dff; left: 609px; }
+
+ul li:nth-child(204) { background-color: #0099ff; left: 612px; }
+
+ul li:nth-child(205) { background-color: #0095ff; left: 615px; }
+
+ul li:nth-child(206) { background-color: #0091ff; left: 618px; }
+
+ul li:nth-child(207) { background-color: #008cff; left: 621px; }
+
+ul li:nth-child(208) { background-color: #0088ff; left: 624px; }
+
+ul li:nth-child(209) { background-color: #0084ff; left: 627px; }
+
+ul li:nth-child(210) { background-color: #0080ff; left: 630px; }
+
+ul li:nth-child(211) { background-color: #007bff; left: 633px; }
+
+ul li:nth-child(212) { background-color: #0077ff; left: 636px; }
+
+ul li:nth-child(213) { background-color: #0073ff; left: 639px; }
+
+ul li:nth-child(214) { background-color: #006fff; left: 642px; }
+
+ul li:nth-child(215) { background-color: #006aff; left: 645px; }
+
+ul li:nth-child(216) { background-color: #0066ff; left: 648px; }
+
+ul li:nth-child(217) { background-color: #0062ff; left: 651px; }
+
+ul li:nth-child(218) { background-color: #005eff; left: 654px; }
+
+ul li:nth-child(219) { background-color: #0059ff; left: 657px; }
+
+ul li:nth-child(220) { background-color: #0055ff; left: 660px; }
+
+ul li:nth-child(221) { background-color: #0051ff; left: 663px; }
+
+ul li:nth-child(222) { background-color: #004dff; left: 666px; }
+
+ul li:nth-child(223) { background-color: #0048ff; left: 669px; }
+
+ul li:nth-child(224) { background-color: #0044ff; left: 672px; }
+
+ul li:nth-child(225) { background-color: #0040ff; left: 675px; }
+
+ul li:nth-child(226) { background-color: #003cff; left: 678px; }
+
+ul li:nth-child(227) { background-color: #0037ff; left: 681px; }
+
+ul li:nth-child(228) { background-color: #0033ff; left: 684px; }
+
+ul li:nth-child(229) { background-color: #002fff; left: 687px; }
+
+ul li:nth-child(230) { background-color: #002bff; left: 690px; }
+
+ul li:nth-child(231) { background-color: #0026ff; left: 693px; }
+
+ul li:nth-child(232) { background-color: #0022ff; left: 696px; }
+
+ul li:nth-child(233) { background-color: #001eff; left: 699px; }
+
+ul li:nth-child(234) { background-color: #001aff; left: 702px; }
+
+ul li:nth-child(235) { background-color: #0015ff; left: 705px; }
+
+ul li:nth-child(236) { background-color: #0011ff; left: 708px; }
+
+ul li:nth-child(237) { background-color: #000dff; left: 711px; }
+
+ul li:nth-child(238) { background-color: #0009ff; left: 714px; }
+
+ul li:nth-child(239) { background-color: #0004ff; left: 717px; }
+
+ul li:nth-child(240) { background-color: blue; left: 720px; }
+
+ul li:nth-child(241) { background-color: #0400ff; left: 723px; }
+
+ul li:nth-child(242) { background-color: #0900ff; left: 726px; }
+
+ul li:nth-child(243) { background-color: #0d00ff; left: 729px; }
+
+ul li:nth-child(244) { background-color: #1100ff; left: 732px; }
+
+ul li:nth-child(245) { background-color: #1500ff; left: 735px; }
+
+ul li:nth-child(246) { background-color: #1a00ff; left: 738px; }
+
+ul li:nth-child(247) { background-color: #1e00ff; left: 741px; }
+
+ul li:nth-child(248) { background-color: #2200ff; left: 744px; }
+
+ul li:nth-child(249) { background-color: #2600ff; left: 747px; }
+
+ul li:nth-child(250) { background-color: #2b00ff; left: 750px; }
+
+ul li:nth-child(251) { background-color: #2f00ff; left: 753px; }
+
+ul li:nth-child(252) { background-color: #3300ff; left: 756px; }
+
+ul li:nth-child(253) { background-color: #3700ff; left: 759px; }
+
+ul li:nth-child(254) { background-color: #3c00ff; left: 762px; }
+
+ul li:nth-child(255) { background-color: #4000ff; left: 765px; }
+
+ul li:nth-child(256) { background-color: #4400ff; left: 768px; }
+
+ul li:nth-child(257) { background-color: #4800ff; left: 771px; }
+
+ul li:nth-child(258) { background-color: #4d00ff; left: 774px; }
+
+ul li:nth-child(259) { background-color: #5100ff; left: 777px; }
+
+ul li:nth-child(260) { background-color: #5500ff; left: 780px; }
+
+ul li:nth-child(261) { background-color: #5900ff; left: 783px; }
+
+ul li:nth-child(262) { background-color: #5e00ff; left: 786px; }
+
+ul li:nth-child(263) { background-color: #6200ff; left: 789px; }
+
+ul li:nth-child(264) { background-color: #6600ff; left: 792px; }
+
+ul li:nth-child(265) { background-color: #6a00ff; left: 795px; }
+
+ul li:nth-child(266) { background-color: #6f00ff; left: 798px; }
+
+ul li:nth-child(267) { background-color: #7300ff; left: 801px; }
+
+ul li:nth-child(268) { background-color: #7700ff; left: 804px; }
+
+ul li:nth-child(269) { background-color: #7b00ff; left: 807px; }
+
+ul li:nth-child(270) { background-color: #8000ff; left: 810px; }
+
+ul li:nth-child(271) { background-color: #8400ff; left: 813px; }
+
+ul li:nth-child(272) { background-color: #8800ff; left: 816px; }
+
+ul li:nth-child(273) { background-color: #8c00ff; left: 819px; }
+
+ul li:nth-child(274) { background-color: #9100ff; left: 822px; }
+
+ul li:nth-child(275) { background-color: #9500ff; left: 825px; }
+
+ul li:nth-child(276) { background-color: #9900ff; left: 828px; }
+
+ul li:nth-child(277) { background-color: #9d00ff; left: 831px; }
+
+ul li:nth-child(278) { background-color: #a200ff; left: 834px; }
+
+ul li:nth-child(279) { background-color: #a600ff; left: 837px; }
+
+ul li:nth-child(280) { background-color: #aa00ff; left: 840px; }
+
+ul li:nth-child(281) { background-color: #ae00ff; left: 843px; }
+
+ul li:nth-child(282) { background-color: #b300ff; left: 846px; }
+
+ul li:nth-child(283) { background-color: #b700ff; left: 849px; }
+
+ul li:nth-child(284) { background-color: #bb00ff; left: 852px; }
+
+ul li:nth-child(285) { background-color: #bf00ff; left: 855px; }
+
+ul li:nth-child(286) { background-color: #c400ff; left: 858px; }
+
+ul li:nth-child(287) { background-color: #c800ff; left: 861px; }
+
+ul li:nth-child(288) { background-color: #cc00ff; left: 864px; }
+
+ul li:nth-child(289) { background-color: #d000ff; left: 867px; }
+
+ul li:nth-child(290) { background-color: #d500ff; left: 870px; }
+
+ul li:nth-child(291) { background-color: #d900ff; left: 873px; }
+
+ul li:nth-child(292) { background-color: #dd00ff; left: 876px; }
+
+ul li:nth-child(293) { background-color: #e100ff; left: 879px; }
+
+ul li:nth-child(294) { background-color: #e600ff; left: 882px; }
+
+ul li:nth-child(295) { background-color: #ea00ff; left: 885px; }
+
+ul li:nth-child(296) { background-color: #ee00ff; left: 888px; }
+
+ul li:nth-child(297) { background-color: #f200ff; left: 891px; }
+
+ul li:nth-child(298) { background-color: #f700ff; left: 894px; }
+
+ul li:nth-child(299) { background-color: #fb00ff; left: 897px; }
+
+ul li:nth-child(300) { background-color: magenta; left: 900px; }
+
+ul li:nth-child(301) { background-color: #ff00fb; left: 903px; }
+
+ul li:nth-child(302) { background-color: #ff00f7; left: 906px; }
+
+ul li:nth-child(303) { background-color: #ff00f2; left: 909px; }
+
+ul li:nth-child(304) { background-color: #ff00ee; left: 912px; }
+
+ul li:nth-child(305) { background-color: #ff00ea; left: 915px; }
+
+ul li:nth-child(306) { background-color: #ff00e6; left: 918px; }
+
+ul li:nth-child(307) { background-color: #ff00e1; left: 921px; }
+
+ul li:nth-child(308) { background-color: #ff00dd; left: 924px; }
+
+ul li:nth-child(309) { background-color: #ff00d9; left: 927px; }
+
+ul li:nth-child(310) { background-color: #ff00d5; left: 930px; }
+
+ul li:nth-child(311) { background-color: #ff00d0; left: 933px; }
+
+ul li:nth-child(312) { background-color: #ff00cc; left: 936px; }
+
+ul li:nth-child(313) { background-color: #ff00c8; left: 939px; }
+
+ul li:nth-child(314) { background-color: #ff00c4; left: 942px; }
+
+ul li:nth-child(315) { background-color: #ff00bf; left: 945px; }
+
+ul li:nth-child(316) { background-color: #ff00bb; left: 948px; }
+
+ul li:nth-child(317) { background-color: #ff00b7; left: 951px; }
+
+ul li:nth-child(318) { background-color: #ff00b3; left: 954px; }
+
+ul li:nth-child(319) { background-color: #ff00ae; left: 957px; }
+
+ul li:nth-child(320) { background-color: #ff00aa; left: 960px; }
+
+ul li:nth-child(321) { background-color: #ff00a6; left: 963px; }
+
+ul li:nth-child(322) { background-color: #ff00a2; left: 966px; }
+
+ul li:nth-child(323) { background-color: #ff009d; left: 969px; }
+
+ul li:nth-child(324) { background-color: #ff0099; left: 972px; }
+
+ul li:nth-child(325) { background-color: #ff0095; left: 975px; }
+
+ul li:nth-child(326) { background-color: #ff0091; left: 978px; }
+
+ul li:nth-child(327) { background-color: #ff008c; left: 981px; }
+
+ul li:nth-child(328) { background-color: #ff0088; left: 984px; }
+
+ul li:nth-child(329) { background-color: #ff0084; left: 987px; }
+
+ul li:nth-child(330) { background-color: #ff0080; left: 990px; }
+
+ul li:nth-child(331) { background-color: #ff007b; left: 993px; }
+
+ul li:nth-child(332) { background-color: #ff0077; left: 996px; }
+
+ul li:nth-child(333) { background-color: #ff0073; left: 999px; }
+
+ul li:nth-child(334) { background-color: #ff006f; left: 1002px; }
+
+ul li:nth-child(335) { background-color: #ff006a; left: 1005px; }
+
+ul li:nth-child(336) { background-color: #ff0066; left: 1008px; }
+
+ul li:nth-child(337) { background-color: #ff0062; left: 1011px; }
+
+ul li:nth-child(338) { background-color: #ff005e; left: 1014px; }
+
+ul li:nth-child(339) { background-color: #ff0059; left: 1017px; }
+
+ul li:nth-child(340) { background-color: #ff0055; left: 1020px; }
+
+ul li:nth-child(341) { background-color: #ff0051; left: 1023px; }
+
+ul li:nth-child(342) { background-color: #ff004d; left: 1026px; }
+
+ul li:nth-child(343) { background-color: #ff0048; left: 1029px; }
+
+ul li:nth-child(344) { background-color: #ff0044; left: 1032px; }
+
+ul li:nth-child(345) { background-color: #ff0040; left: 1035px; }
+
+ul li:nth-child(346) { background-color: #ff003c; left: 1038px; }
+
+ul li:nth-child(347) { background-color: #ff0037; left: 1041px; }
+
+ul li:nth-child(348) { background-color: #ff0033; left: 1044px; }
+
+ul li:nth-child(349) { background-color: #ff002f; left: 1047px; }
+
+ul li:nth-child(350) { background-color: #ff002b; left: 1050px; }
+
+ul li:nth-child(351) { background-color: #ff0026; left: 1053px; }
+
+ul li:nth-child(352) { background-color: #ff0022; left: 1056px; }
+
+ul li:nth-child(353) { background-color: #ff001e; left: 1059px; }
+
+ul li:nth-child(354) { background-color: #ff001a; left: 1062px; }
+
+ul li:nth-child(355) { background-color: #ff0015; left: 1065px; }
+
+ul li:nth-child(356) { background-color: #ff0011; left: 1068px; }
+
+ul li:nth-child(357) { background-color: #ff000d; left: 1071px; }
+
+ul li:nth-child(358) { background-color: #ff0009; left: 1074px; }
+
+ul li:nth-child(359) { background-color: #ff0004; left: 1077px; }
+
+ul li:nth-child(360) { background-color: red; left: 1080px; }
+
+div { width: 250px; height: 250px; position: relative; box-sizing: border-box; }
+
+div a { box-sizing: border-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; position: absolute; width: 100%; height: 100%; border-radius: 100%; color: #fafafa; text-decoration: none; border: 1px solid #fafafa; }
+
+div a:nth-child(1) { background-color: rgba(255, 71, 96, 0.5); }
+
+div a:nth-child(2) { background-color: rgba(30, 50, 255, 0.5); }
+
+div a:nth-child(3) { background-color: rgba(78, 255, 142, 0.5); }
+
+div a:nth-child(1) { -webkit-transform: translate3d(-40%, -40%, 0); transform: translate3d(-40%, -40%, 0); }
+
+div a:nth-child(2) { -webkit-transform: translate3d(40%, -40%, 0); transform: translate3d(40%, -40%, 0); }
+
+div a:nth-child(3) { -webkit-transform: translate3d(0, 20%, 0); transform: translate3d(0, 20%, 0); }
