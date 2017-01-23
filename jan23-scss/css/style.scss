@@ -1,0 +1,44 @@
+@import 'import';
+
+body {
+  font-family: sans-serif;
+}
+h1 {
+  color: $primary-color;
+  @extend %border-style;
+}
+h2 {
+  font-family: 'Raleway';
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.btn {
+  display: inline-block;
+  background-color: pink;
+  padding: 10px;
+  @include border-style(blue);
+}
+.btn:hover {
+  text-decoration: none;
+}
+a.btn:last-child {
+  @include border-style(purple);
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul:nth-of-type(1) li {
+  @include li(5, orange);
+}
+ul:nth-of-type(2) li {
+ @include li(7, blue);
+}
+ul:nth-of-type(3) li {
+  @include li(9, pink);
+}
