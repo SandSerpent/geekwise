@@ -1,0 +1,92 @@
+@import 'import';
+
+body {
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+
+}
+nav {
+  padding: 20px;
+  display: flex;
+}
+nav > div {
+  position: absolute;
+  top: 0;
+  left: -500px;
+  width: 250px;
+  height: 100vh;
+  transition: all 250ms ease-out;
+}
+input {
+  margin-top: 10px;
+}
+header {
+  margin-left: 5%;
+  margin-right: 5%;
+  border-bottom: 1.2px solid gray;
+}
+header .top {
+  display: flex;
+  border-bottom: 5px solid #62D4E5;
+}
+header span {
+  opacity: .5;
+}
+header .fa {
+  opacity: .5;
+}
+header ul {
+  margin-left: 68%;
+  display: flex;
+}
+header li {
+  margin-left: 10px;
+  list-style: none;
+}
+.bottom {
+  margin-top: 50px;
+  display: flex;
+  margin-bottom: 50px;
+}
+.bottom div {
+  flex: 1;
+}
+.bottom h2 {
+  font-size: 30px;
+}
+.bottom div:nth-of-type(1) {
+  margin-right: 5%;
+}
+.bottom h5, .bottom p {
+  opacity: .5;
+}
+.bottom p {
+  padding-bottom: 10px;
+}
+header a {
+  margin-top: 30px;
+  text-decoration: none;
+  color: #62D4E5;
+  padding: 10px 25px;
+  border: 2px solid #62D4E5;
+  border-radius: 5px;
+}
+header img {
+  width: 100%;
+  border-radius: 10px;
+}
+main {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+main section:nth-of-type(1) {
+  padding-top: 30px;
+}
+main section:nth-of-type(1) h3 {
+  border-bottom: 4px solid #62D4E5;
+  padding-bottom: 10px;
+  width: 10%;
+}
+main section:nth-of-type(1) > div {
+  display: flex;
+}
