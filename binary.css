@@ -1,0 +1,161 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+
+body {
+  margin: 0;
+}
+header {
+  background-color: #3498db;
+  color: white;
+  height: 400px;
+}
+header h1 {
+  padding-top: 100px;
+  margin-top: 0;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 45px;
+}
+header h1 a {
+  text-decoration: none;
+  color: white;
+}
+header h1 a:hover {
+  text-decoration: underline;
+}
+.a {
+  padding: 15px 30px;
+  margin-left: 45%;
+  border: solid hsl(180, 32%, 59%) 1.5px;
+  text-decoration: none;
+  color: white;
+  transition: .5s all ease-in-out;
+}
+.a:hover {
+  background-color: #1dd2af;
+  transition: .5s all ease-in-out;
+}
+div.parent {
+  display: flex;
+}
+div.parent div {
+  flex: 1;
+  margin-left:
+}
+div.parent div h2 {
+  margin-top: 40px;
+}
+div.parent:nth-of-type(even) div h2 {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+div.parent:nth-of-type(odd) div h2 {
+  margin-left: 54%;
+  margin-right: 5%;
+}
+div.parent div h6 {
+  margin: 10px auto;
+}
+div.parent:nth-of-type(odd) div h6 {
+  margin-left: 75%;
+  margin-right: 5%;
+}
+div.parent:nth-of-type(even) div h6 {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+div.parent div .more {
+  border: 2px solid gray;
+  padding: 10px 25px;
+}
+div.parent:nth-of-type(even) div .more {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+div.parent:nth-of-type(odd) div .more {
+  margin-left: 75%;
+  margin-right: 5%;
+}
+div.parent div h6 a {
+  margin-left: 2px;
+}
+div.parent div a {
+  text-decoration: none;
+}
+div.parent div a:hover {
+  text-decoration: underline;
+}
+div.parent div hr {
+  width: 90%;
+}
+div.parent div p {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 40px;
+}
+div.parent div img {
+  width: 100%;
+  height: 100%;
+}
+div.parent:nth-of-type(even) div:first-of-type {
+  order: 2;
+}
+#one h2, #one a {
+  color: #1abc9c;
+}
+#two {
+  background: #1abc9c;
+}
+#two h2, #two a {
+  color: white;
+}
+#three h2, #three a {
+  color: #3498db;
+}
+#four {
+  background: #3498db;
+}
+#four h2, #four a {
+  color: white;
+}
+#five h2, #five a {
+  color: #9b59b6;
+}
+#six {
+  background: #9b59b6;
+}
+#six h2, #six a {
+  color: white;
+}
+footer {
+  height: 200px;
+  background: #1c1c1c;
+}
+footer i {
+  margin-top: 60px;
+  margin-left: 5px;
+  text-decoration: none;
+  color: gray;
+}
+footer i:hover {
+  color: white;
+}
+footer div {
+  margin-left: 46%;
+}
+footer i.fa {
+  font-size: 30px;
+}
+footer h5 {
+  text-align: center;
+  margin-top: 40px;
+  color: gray;
+}
+footer a {
+  color: gray;
+  text-decoration: none;
+}
+footer a:hover {
+  color: white;
+  text-decoration: underline;
+}
