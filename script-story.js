@@ -1,10 +1,11 @@
-
 var wrong = "It's safe to assume you do not need medical attention"
 var painResp = confirm("Are you in pain?");
 if(painResp){
   alert('Continue');
 }else {
   alert(wrong);
+  alert("go on, leave.");
+  alert("go or by the power invested in me, I will find you. If you misclicked the first time, continue")
 }
 
 var bad = confirm("Is your pain bad?");
