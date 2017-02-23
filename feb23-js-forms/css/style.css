@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+h5 {
+  margin-left: 5%;
+  margin-top: 0;
+  padding-top: 10px;
+  text-decoration: underline;
+}
+
+nav {
+  background-color: blue;
+}
+p {
+  margin-left: 10%;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+main {
+  display: flex;
+}
+div:nth-of-type(1) {
+  margin-left: 10%;
+}
+div p {
+  padding: 0;
+  margin-right: 2px;
+  text-align: right;
+}
+div:nth-of-type(2) {
+  margin-left: 0;
+}
+form {
+  width: 250px;
+}
+form input {
+  margin-bottom: 5px;
+}
+input:last-child {
+  padding: 5px 15px;
+  color: blue;
+  transition: .5s ease-in-out;
+}
+input:last-child:hover {
+  background-color: black;
+  border-color: blue;
+  color: white;
+  transition: .5s ease-in-out;
+}
