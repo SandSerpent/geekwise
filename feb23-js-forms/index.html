@@ -9,11 +9,15 @@
 </head>
 <body>
   <nav>
-  <h5>Contact</h5>
-  <hr />
+    <h5>Contact</h5>
+    <form id="loginForm">
+      <input type="text" placeholder="Username"/>
+      <input type="text" placeholder="Password"/>
+      <input type="submit" value="Log in"/>
+    </form>
   </nav>
 
-    <p>
+    <p><span class="custom"></span>
       Feel free to reach me
     </p>
  <main>
@@ -25,7 +29,7 @@
     <p>Message </p>
   </div>
   <div>
-    <form>
+    <form id="contactForm">
       <input type="text" placeholder="First Name"/><br />
       <input type="text" placeholder="Last Name"/><br />
       <input type="email" placeholder="E-mail"/><br />
@@ -35,6 +39,8 @@
     </form>
   </div>
  </main>
+
+  <script src="js/md5.js"></script>
 
   <script src="js/script.js"></script>
 
