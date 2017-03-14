@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
-@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
 body {
   margin: 0;
-  font-family: 'Merriweather', serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 header {
   background-image: url(../img/moon.jpg);
@@ -21,8 +21,8 @@ header {
   transition: all 1s ease-in-out;
 }
 #earth:hover {
-  transform: scale(1.18);
-  transition: all ease-in-out .5s
+  transform: scale(1.1);
+  transition: all ease-in-out .5s;
 }
 header h1 {
   margin: 0;
@@ -193,7 +193,7 @@ section label {
 section input {
   margin-left: 8%;
 }
-section:nth-of-type(2) div:nth-of-type(1) a {
+section:nth-of-type(2) div:nth-of-type(1) input:nth-of-type(3) {
   margin-left: 8%;
   display: inline-block;
   margin-top: 10px;
@@ -202,15 +202,16 @@ section:nth-of-type(2) div:nth-of-type(1) a {
   text-decoration: none;
   color: black;
   border-radius: 10px 10px;
+  transition: all .5s ease-in-out;
 }
-section:nth-of-type(2) div:nth-of-type(1) a:hover {
+section:nth-of-type(2) div:nth-of-type(1) input:nth-of-type(3):hover {
   background-color: hsl(2, 91%, 38%);
   text-decoration: none;
   color: white;
-  transition: all .2s ease-in-out;
+  transition: all .5s ease-in-out;
 }
-.front span {
-  color: red;
+.front span:nth-of-type(1), .front span:nth-of-type(2){
+  color: hsl(2, 91%, 38%);
   text-decoration: underline;
 }
 section:nth-of-type(2) div p {
@@ -218,7 +219,7 @@ section:nth-of-type(2) div p {
   font-size: 16px;
   margin-top: 50px;
   width: 88%;
-  margin-left: 10%;
+  margin-left: 6%;
 }
 section:nth-of-type(2) div li {
   margin-left: 5%;
@@ -270,6 +271,7 @@ footer h2 span {
 footer div:nth-of-type(1) h2 i {
   margin-bottom: 0;
   color: black;
+  transition: all 2s ease-in-out;
 }
 footer div:nth-of-type(2) p {
   margin-bottom: 0;
@@ -278,7 +280,10 @@ footer div:nth-of-type(2) p {
   margin-top: 30px;
   margin-left: 648px;
 }
-
+.floating {
+  transform: translate3d(0px, -100px, 0);
+  transition: all 2s ease-in-out;
+}
 
 @media screen and (max-width:445px) {
   header h1 {
