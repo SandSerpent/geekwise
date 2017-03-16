@@ -127,6 +127,22 @@ section:nth-of-type(1) ul li {
   color: white;
   font-size: 12px;
 }
+section:nth-of-type(1) .fa-rocket {
+  position: absolute;
+  left: 45%;
+  font-size: 36px;
+}
+section:nth-of-type(1) > div > i {
+  transition: all 3s ease-in-out;
+}
+.blast {
+  transform: all 3s ease-in-out;
+  transform: translate3d(455px, -525px, 0);
+}
+main section:nth-of-type(1) .red {
+  color: red;
+  transition: all 3s ease-in-out;
+}
 section:nth-of-type(2) {
   padding-top: 200px;
   display: flex;
@@ -262,16 +278,10 @@ footer h2 {
   0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3),
   0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
 }
-footer h2 span {
-  margin-top: 20px;
-  margin-left: 5px;
-  font-size: 6px;
-  text-shadow: none;
-}
 footer div:nth-of-type(1) h2 i {
   margin-bottom: 0;
   color: black;
-  transition: all 2s ease-in-out;
+  transition: all 15s ease-in-out;
 }
 footer div:nth-of-type(2) p {
   margin-bottom: 0;
@@ -281,10 +291,9 @@ footer div:nth-of-type(2) p {
   margin-left: 648px;
 }
 .floating {
-  transform: translate3d(0px, -100px, 0);
-  transition: all 2s ease-in-out;
+  transform: rotate(360deg);
+  transition: all 15s ease-in-out;
 }
-
 @media screen and (max-width:445px) {
   header h1 {
     color: gray;

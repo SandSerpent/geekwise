@@ -1,3 +1,15 @@
+var sec1 = document.querySelector('main section:nth-of-type(1)'),
+    rocket = document.querySelector('section:nth-of-type(1) > div > i');
+
+sec1.addEventListener('mouseover', function(){
+    rocket.classList.add('blast');
+    rocket.classList.add('red');
+})
+sec1.addEventListener('mouseout', function(){
+    rocket.classList.remove('blast');
+    rocket.classList.remove('red');
+})
+
 var inpName = document.querySelector('input:nth-of-type(1)'),
     inpMail = document.querySelector('input:nth-of-type(2)'),
     inpSub = document.querySelector('input:nth-of-type(3)'),
@@ -23,20 +35,15 @@ inpSub.addEventListener('click', function(evt){
       email = '',
       subBtn = '',
       contact = '';
-      console.log(fullName);
-      console.log(email);
-      console.log(subBtn);
 });
 
 var footer = document.querySelector('footer'),
-    infinity = document.querySelector('footer span'),
+    sec2 = document.querySelector('main section:nth-of-type(2)'),
     astro = document.querySelector('footer i');
-    console.log(astro);
 
-footer.addEventListener('mouseover', function(){
+sec2.addEventListener('mouseover', function(){
   astro.classList.add('floating');
-  infinity.style.textContent = 'to infinity';
 })
-footer.addEventListener('mouseout', function(){
+sec2.addEventListener('mouseout', function(){
   astro.classList.remove('floating');
 })
