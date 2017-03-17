@@ -16,13 +16,24 @@ header {
 #earth {
   position: absolute;
   top: 18%;
-  left: 40%;
+  left: 37.9%;
   height: 230px;
   transition: all 1s ease-in-out;
 }
+.works{
+  background-image: url(../img/fireworks.png);
+  transition: all 1s ease-in-out;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 25px;
+  padding-right: 35px;
+  padding-bottom: 10px;
+
+}
 #earth:hover {
   transform: scale(1.1);
-  transition: all ease-in-out .5s;
+  transition: all ease-in-out 1s;
 }
 header h1 {
   margin: 0;
@@ -62,8 +73,8 @@ header div img:nth-of-type(2) {
 header img {
   height: 20px;
 }
-header img:hover {
-  transition: ease-in-out all .5s;
+.spin {
+  transition: ease-in-out all 2s;
   transform: rotate(360deg);
 }
 
@@ -143,17 +154,20 @@ main section:nth-of-type(1) .red {
   color: red;
   transition: all 3s ease-in-out;
 }
-section:nth-of-type(2) {
-  padding-top: 200px;
-  display: flex;
-  background-color: #070302;
-  height: 400px;
-}
 section:nth-of-type(1) h1:nth-of-type(2) {
   margin-top: 80px
 }
 section:nth-of-type(2) div:nth-of-type(1) {
   margin-left: 80px;
+}
+#dist {
+  margin-left: 5px;
+}
+section:nth-of-type(2) {
+  padding-top: 200px;
+  display: flex;
+  background-color: #070302;
+  height: 400px;
 }
 section:nth-of-type(2) div {
   height: 300px;
@@ -214,7 +228,7 @@ section:nth-of-type(2) div:nth-of-type(1) input:nth-of-type(3) {
   display: inline-block;
   margin-top: 10px;
   padding: 5px 10px;
-  border: 1px solid black;
+  border: 2px solid black;
   text-decoration: none;
   color: black;
   border-radius: 10px 10px;

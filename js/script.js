@@ -39,11 +39,27 @@ inpSub.addEventListener('click', function(evt){
 
 var footer = document.querySelector('footer'),
     sec2 = document.querySelector('main section:nth-of-type(2)'),
-    astro = document.querySelector('footer i');
+    astro = document.querySelector('footer i'),
+    stars = document.querySelectorAll('header div img'),
+    earth = document.getElementById('earth');
 
 sec2.addEventListener('mouseover', function(){
   astro.classList.add('floating');
 })
 sec2.addEventListener('mouseout', function(){
   astro.classList.remove('floating');
+})
+
+earth.addEventListener('mouseover', function(){
+  earth.classList.add('works');
+  var i;
+  for (i = 0; i < stars.length; i++) {
+    stars[i].classList.add('spin');
+  }
+})
+earth.addEventListener('mouseout', function(){
+  earth.classList.remove('works');
+  for (i = 0; i < stars.length; i++) {
+    stars[i].classList.remove('spin');
+  }
 })
